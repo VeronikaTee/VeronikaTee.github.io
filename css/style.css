@@ -1,0 +1,172 @@
+/* Общая  стилизация */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  background-color: rgb(236, 236, 236);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* Header */
+
+nav {
+  padding: 10%;
+}
+
+.lk {
+  display: flex;
+  flex-direction: row;
+}
+
+.lk li {
+  list-style-type: none;
+}
+
+/* Footer */
+
+.footer_nav {
+  padding: 3% 10% 3% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(215, 215, 215);
+}
+
+.footer_nav a {
+  color: rgb(215, 215, 215);
+  padding: 10px;
+}
+
+/* Страница товара */
+
+.goods_img img {
+  height: 300px;
+  padding-right: 100px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+}
+
+.desk table {
+  width: 500px !important;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.ds {
+  font-size: 20px;
+}
+
+.p_desk {
+  margin-bottom: 50px;
+}
+
+/* Контакты */
+
+.map {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.img {
+  background-color: gray;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Каталог */
+
+.nav_catalog a {
+  color: rgb(50, 50, 50);
+}
+
+.good_img {
+  height: 200px;
+  background-color: rgb(71, 71, 71);
+}
+
+.catalog {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.img_good {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card {
+  margin: 50px;
+}
+
+/* Главная */
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.about {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+/* Slider */
+
+.carousel-item {
+  width: 1000px;
+  height: 400px;
+}
+
+.slide_img {
+  width: 1000px;
+  height: 400px;
+  overflow: hidden;
+}
+
+/* Личный кабинет */
+
+h4 a {
+  text-decoration: none;
+  color: brown;
+}
+
+form {
+  padding: 50px;
+}
+
+.modal-dialog {
+  max-width: 1000px!important;
+}
